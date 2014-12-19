@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+        <head>
+        <title>CS53001 Web Interface</title>
+        </head>
+<!-- loading bootstrap-->
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+
+<!-- loading flat UI-->
+<link href = "css/flat-ui.css" rel = "stylesheet">
+
+  <body>
+        <h1>CS53001 Web Interface Demo</h1>
+
+        No.1, a link to a php script (code>list_tables.php</code>) that list all tables in
+        your database:
+        <p>
+
+        <a href="list_tables.php">List your tables!</a>
+        <hr>
+
+        No.1.1, a link to a php script (code>list_allTweet.php</code>) that list all tables in
+        your database:
+        <p>
+
+        <a href="list_allTweet.php">List your tables!</a>
+        <hr>
+
+        No.2, a form to get all attributes of a user given a username.  The script that runs when you press the <it>Submit</it> button is <code>list_attrs.php</code>.
+        <p>
+
+   <form method=get action="list_attrs.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+   </form>
+
+   <hr>
+   No.3, a form to get all the Tweet Information of a user given a username.  The script that runs when you press the <it>Submit</it> button is <code>list_tweets.php</code>.
+                <p>
+
+                <form method=get action="list_tweets.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+                <hr>
+ No.4, a form to get all the follower of a user given a username.  The script that runs when you press the <it>Submit</it> button is <code>list_follower.php</code>.
+                <p>
+
+                <form method=get action="list_follower.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+                <hr>
+ No.5, a form to get all the users of a user follows with a given name.  The script that runs when you press the <it>Submit</it> button is <code>list_follows.php</code>.
+                <p>
+
+                <form method=get action="list_follows.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+<hr>
+   No.6, a form to get all the Tweet Information which contains the given information.  The script that runs when you press the <it>Submit</it> button is <code>list_contain.php</code>
+                <p>
+
+                <form method=get action="list_contain.php">
+        <b>Enter tweet info:</b><br />
+                <input type="text" name="info"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+                <hr>
+   No.7, a form to get all the users who comment on the tweet with a given ID.  The script that runs when you press the <it>Submit</it> button is <code>list_commenter.php</code>.
+                <p>
+
+                <form method=get action="list_commenter.php">
+        <b>Enter Tweet ID:</b><br />
+                <input type="text" name="tweetID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+                <hr>
+ No.8, a form to get all the comment history of a user given a username.  The script that runs when you press the <it>Submit</it> button is <code>list_commentMade.php</code>.
+                <p>
+
+                <form method=get action="list_commentMade.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+                <hr>
+   No.9, a form to get the Tweet Information favorited by a user given a username.  The script that runs when you press the <it>Submit</it> button is <code>list_favorite.php</code>
+                <p>
+
+                <form method=get action="list_favorite.php">
+        <b>Enter username:</b><br />
+                <input type="text" name="user"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+                <hr>
+No.10, a form to get all the user Information of a Tweet given a Tweet ID.  The script that runs when you press the <it>Submit</it> button is <code>list_favoriter.php</code>.
+                <p>
+
+                <form method=get action="list_favoriter.php">
+        <b>Enter Tweet ID:</b><br />
+                <input type="text" name="tweetID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+
+
+
+No.11, a form to get all the user Information User ID.  The script that runs when you press the <it>Submit</it> button is <code>get_Userinfo.php</code>.
+                <p>
+
+                <form method=get action="get_Userinfo.php">
+        <b>Enter User ID:</b><br />
+                <input type="text" name="UserID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+No.12, a form to get all the Tweets of a User given a User ID.  The script that runs when you press the <it>Submit</it> button is <code>get_Tweets.php</code>.
+                <p>
+
+                <form method=get action="get_Tweets.php">
+        <b>Enter User ID:</b><br />
+                <input type="text" name="UserID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+No.13, a form to get all the number Information of a User(TweetNumber, FollowNumber, FollowerNumber) given a User ID.  The script that runs when you press the <it>Submit</it> button is <code>get_Number.php</code>.
+                <p>
+
+                <form method=get action="get_Number.php">
+        <b>Enter User ID:</b><br />
+                <input type="text" name="UserID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+No.14, a form to get all the user Information of a Tweet given a Tweet ID.  The script that runs when you press the <it>Submit</it> button is <code>list_topUser.php</code>.
+                <p>
+
+                <form method=get action="list_topUser.php">
+        <b>Enter Tweet ID:</b><br />
+                <input type="text" name="tweetID"><br />
+                <input type="submit" value="Submit">
+                </form>
+
+
+ </body>
+</html>
